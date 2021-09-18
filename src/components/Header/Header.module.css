@@ -1,0 +1,52 @@
+
+.mainHeaderDiv {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+.header {
+  background-color: #444;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+ul li.l1,
+ul li.l2
+{
+  display: inline-flex;
+  padding: 20px;
+}
+
+ul li.l1 {
+  justify-content: left;
+  width: 85%;
+  color: #fa243c;
+  font-weight: 400;
+  font-size: 24px;;
+}
+
+ 
+ul li.l2{
+  justify-content: right;
+}
+
+.headerFavorite {
+  border: 2px solid #fa243c;
+  border-radius: 50px;
+  width: auto;
+  padding: 2px 10px 2px 10px;
+  color: white;
+}
+
+
+.headerFavorite i{
+  color: #fa243c;
+}
+

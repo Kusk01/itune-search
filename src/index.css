@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #282828 ;
+}
+
+/* .ui-datepicker-prev span {
+  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png);
+  background-position: 0px 0px !important;
+}
+
+.ui-datepicker-next span {
+  background-image: url(http://legacy.australianetwork.com/img/icon_arrow_right_black.png) !important;
+  background-position: 0px 0px !important;
+} */
+
+div.ui-datepicker {
+  padding: 20px;
+  width: 20%;
+  margin-top: 10px;
+}
+div.ui-datepicker table.ui-datepicker-calendar tbody tr td {
+  border: 1px solid #ccc !important;
+}
+
+div.ui-datepicker table.ui-datepicker-calendar tbody tr td,
+div.ui-datepicker table.ui-datepicker-calendar tbody tr td a {
+  border:none;
+  background-color: white;
+  color:black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 30px;
+}
+
+div.ui-datepicker table.ui-datepicker-calendar thead tr th{
+  padding: 20px 0 0 0;
+  font-weight: normal;
+  font-family: 'FontAwesome';
+}
+
+div.ui-datepicker  div.ui-datepicker-header {
+  background-color: white;
+  border: none;
+  font-weight: normal;
+  font-family: 'FontAwesome';
+  padding:0;
+  margin: 0;
+}
+
+
+div.ui-datepicker::before {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+  /* content: ''; */
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid white;
+  border-bottom-color: white;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}

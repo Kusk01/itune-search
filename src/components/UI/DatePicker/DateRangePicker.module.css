@@ -1,0 +1,64 @@
+.rangePicker{
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  margin-left: 15px;
+}
+
+.datepicker1 {
+  border-right: none;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+
+.datepicker2 {
+  border-left: none;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.datepicker1:focus-visible,
+.datepicker2:focus-visible {
+  outline: none;
+}
+
+.myarrow{
+  transform: rotate(90deg);
+  border: 1px solid transparent;
+  display: inline-block
+}
+.line {
+  border-right: 1px solid #808080;
+  height: 5rem;
+}
+.arrow{
+position:absolute;
+  top:-0.3rem;
+  bottom:0;
+  height:1rem;
+  border-right: 1px solid #808080;
+  display: inline-block;
+}
+.right{
+  left:5px;
+  transform: rotate(-45deg);
+}
+.left{
+  right:5px;
+  transform: rotate(45deg);
+}
+
+.title span {
+  color: #fa243c;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'FontAwesome';
+  margin-left: 15px;
+}
+

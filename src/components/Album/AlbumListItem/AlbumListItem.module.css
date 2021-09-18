@@ -1,0 +1,117 @@
+.album {
+    height: 300px;
+    width: 300px;
+}
+
+.item {
+    margin: 0px 10px 0 25px;;
+    padding: 6px;
+    display: inline-flex;
+  
+}
+
+.item img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.artist {
+    color: white;
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.title,
+.name {
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.heart {
+    width: 33.4%;
+}
+
+.favorite {
+    cursor: pointer;
+    position: relative;
+    width: 22px;
+    line-height: 24px;
+    overflow: visible;
+    border: 0;
+    background: none;
+    top: 0;
+}
+
+.favorite i {
+    font-size: 25px;
+    color: #fa243c;
+    ;
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        flex: 0 0 auto;
+        width: 15.5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .item {
+        flex: 0 0 auto;
+        width: 15.5%;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .item {
+        flex: 0 0 auto;
+        width: 14%;
+    }
+}
+
+@media only screen and (min-width: 1200) {
+    .item {
+        flex: 0 0 auto;
+        width: 17% !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .item {
+        flex: 0 0 auto;
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .item {
+        flex: 0 0 auto;
+        width: 16.5%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+    .item {
+        flex: 0 0 auto;
+        width: 18%;
+    }
+}
+
+
+
+
+
+
+
+
